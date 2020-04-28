@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header1 from './Header1';
 import './App.css';
+import Logo from './Logo'; 
+import Header2 from './Header2'; 
+import IconFacebook from './IconFacebook';
+import IconTwitter from './IconTwitter';
+import IconGooglePlus from './IconGooglePlus';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='nav-bar'>
+     <Logo /> 
+     <Header1 />
+     <Header2 />
+     <IconFacebook />
+     <IconTwitter />
+     <IconGooglePlus />
+                
+                {/* Social Media Icon 3 prop link facebook https://aboutme.google.com*/}
     </div>
   );
 }
