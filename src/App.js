@@ -5,6 +5,7 @@ import Logo from './Logo';
 import Header2 from './Header2'; 
 import IconFacebook from './IconFacebook';
 import IconTwitter from './IconTwitter';
+import IconGooglePlus from './IconGooglePlus';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
      <Header2 />
      <IconFacebook />
      <IconTwitter />
-                {/* Social Media Icon 2 prop link twitter https.//www.twitter.com*/}
+     <IconGooglePlus />
+                
                 {/* Social Media Icon 3 prop link facebook https://aboutme.google.com*/}
     </div>
   );
