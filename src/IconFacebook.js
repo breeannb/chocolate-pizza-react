@@ -8,7 +8,7 @@ class IconFacebook extends Component {
             //     <img alt='' src={fbicon} />
             // </div>
             <div>
-                This is the website {this.props.websitelink}
+                Facebook website {this.props.websitelink}
             </div>
         );
     }
